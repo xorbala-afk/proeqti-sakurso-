@@ -185,7 +185,7 @@ li a {
 		height:480px;
 	}
 
-div input{
+.form > .sh > input{
 	width: 90%;
 	height: 40px;
 	position: relative;
@@ -198,11 +198,9 @@ div input{
 	text-align: center;
 }
 
-div input:nth-child(3){
+.form > input:nth-child(3){
 	background-color: black;
-
 	height: 45px;
-
 }
 
 	.qv{
@@ -213,5 +211,28 @@ div input:nth-child(3){
 
 	/*   forma 222222*/
 	.form2{
-		display: none;
+		display:none;
 	}
+	.form2 > .sh{
+		height: 635px;
+
+	}
+	.form2 > .sh > input{
+		background-color: pink;
+		padding-top: 0;
+		height: 28px;
+		margin: 0;
+			width: 90%;
+	height: 42px;
+	border-radius: 10px;
+	border-color: red;
+	background-color: pink;
+	color: red;
+	margin:3px 0 30px 32px;
+	text-align: center;
+	}
+
+	.form2 > .sh > input:nth-child(8){
+	background-color: #3b414a;
+	height: 55px;
+}
