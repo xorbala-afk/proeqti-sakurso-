@@ -88,8 +88,17 @@ li a {
     order: 2;
 }
 
+/* droebit error */
 .nav-menu{
-
+     list-style-type:none;
+	margin: 0;
+	padding: 0;
+	border: 2px dotted pink;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 90px;
 }
 
 .menu-trigger{
