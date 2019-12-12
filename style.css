@@ -88,44 +88,15 @@ li a {
     order: 2;
 }
 
-/* droebit error */
 .nav-menu{
-     list-style-type:none;
-	margin: 0;
-	padding: 0;
-	border: 2px dotted pink;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 90px;
+	margin-bottom: 30px;
 }
 
 .menu-trigger{
 	display: none;
 }
 
-@media screen and (max-width: 600px){
-	
-	.menu-trigger{
-		display: block;
-		color:red;
-		padding: 40px;
-		text-align: right;
-		font-size: 26px;
-		cursor: pointer;
-	}
-	div.nav-menu{
-		display: none;
-	}
-	ul{
-		display: block;
-		float: none;
-	}
-	li{
-		margin: 15px;
-	}
-}
+
 
 .kontacti{
 	margin: auto;

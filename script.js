@@ -1,4 +1,4 @@
-var feri = document.querySelector('.qv');
+var feri = document.querySelector(".qv");
 feri.addEventListener('mousemove', feris);
 
 function feris (e){
